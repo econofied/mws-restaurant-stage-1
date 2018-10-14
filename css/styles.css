@@ -8,6 +8,7 @@ body,td,th,p{
 	line-height: 1.5;
 }
 body {
+  width: 100%;
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
@@ -242,6 +243,11 @@ nav h1 a {
   padding: 140px 40px 30px;
   width: 50%;
 }
+#restaurant-container {
+  position: fixed;
+  left:0;
+  width: 50%;
+}
 #reviews-container {
   padding: 30px 40px 80px;
 }
@@ -273,3 +279,4 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+@media only screen and (max-width: 600px)
